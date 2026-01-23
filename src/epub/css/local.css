@@ -14,14 +14,81 @@ footer{
 	text-indent: 0;
 }
 
+ol.against{
+	counter-reset: num;
+	list-style: none;
+	list-style-position: outside;
+	margin-top: 0;
+}
+
+ol.against li{
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+ol.against li::before{
+	content: "(" counter(num) ")";
+	counter-increment: num;
+}
+
+ol.guilty{
+	counter-reset: item;
+	list-style: none;
+	list-style-position: outside;
+	margin-top: 0;
+}
+
+ol.guilty li{
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+ol.guilty li::before{
+	content: "(" counter(item, lower-alpha) ")";
+	counter-increment: item;
+	font-style: italic;
+}
+
 .advertisement{
 	font-variant: all-small-caps;
+}
+
+.againstlead{
+	margin: 1em 0 0;
+	text-indent: 1em;
 }
 
 .excerpt{
 	font-style: italic;
 	margin: 1em 0;
 	text-indent: 0;
+}
+
+.solutions{
+	margin: 1em auto;
+	text-align: left;
+}
+
+.solutions th{
+	font-variant: small-caps;
+	font-weight: normal;
+}
+
+.solutions .left{
+	overflow-x: hidden;
+	white-space: nowrap;
+}
+
+.solutions .left span:after{
+	content: ". . . . . . . . . ";
+	float: right;
+	padding-left: .25em;
+}
+
+.solutions .right{
+	overflow-x: hidden;
+	padding-left: .25em;
+	white-space: nowrap;
 }
 
 .telegram{
