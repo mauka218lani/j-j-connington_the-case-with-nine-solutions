@@ -58,6 +58,18 @@ ol.guilty li::before{
 	text-indent: 1em;
 }
 
+.calculations{
+	margin: 1em auto;
+}
+
+.calculations td.n{
+	text-align: right;
+}
+
+.calculations td.w{
+	padding-right: 1em;
+}
+
 .excerpt{
 	font-style: italic;
 	margin: 1em 0;
