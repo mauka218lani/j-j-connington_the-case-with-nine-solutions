@@ -1,8 +1,8 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-[epub|type~="z3998:letter"] header{
-	text-align: right;
+[epub|type~="z3998:signature"]{
+	font-variant: small-caps;
 }
 
 footer{
@@ -10,52 +10,47 @@ footer{
 	text-align: right;
 }
 
-[epub|type~="z3998:letter"] header + p{
-	text-indent: 0;
-}
-
-ol.against{
+ol:first-of-type{
 	counter-reset: num;
 	list-style: none;
-	list-style-position: outside;
+	list-style-position: inside;
 	margin-top: 0;
 }
 
-ol.against li{
-	padding-left: 1em;
-	text-indent: -1em;
-}
-
-ol.against li::before{
-	content: "(" counter(num) ")";
+ol:first-of-type li{
 	counter-increment: num;
+	display: flex;
+	padding-left: 1em;
+	text-indent: -1.5em;
 }
 
-ol.guilty{
+ol:first-of-type li::before{
+	content: "(" counter(num) ")";
+	margin-right: .5em;
+}
+
+ol:nth-of-type(2){
 	counter-reset: item;
 	list-style: none;
-	list-style-position: outside;
+	list-style-position: inside;
+	list-style-type: lower-alpha;
 	margin-top: 0;
 }
 
-ol.guilty li{
+ol:nth-of-type(2) li{
+	counter-increment: item;
+	display: flex;
 	padding-left: 1em;
-	text-indent: -1em;
+	text-indent: -1.5em;
 }
 
-ol.guilty li::before{
+ol:nth-of-type(2) li::before{
 	content: "(" counter(item, lower-alpha) ")";
-	counter-increment: item;
 	font-style: italic;
 }
 
 .advertisement{
 	font-variant: all-small-caps;
-}
-
-.againstlead{
-	margin: 1em 0 0;
-	text-indent: 1em;
 }
 
 .calculations{
@@ -78,7 +73,6 @@ ol.guilty li::before{
 
 .solutions{
 	margin: 1em auto;
-	text-align: left;
 }
 
 .solutions th{
@@ -86,12 +80,13 @@ ol.guilty li::before{
 	font-weight: normal;
 }
 
-.solutions .left{
+.solutions .leftth{
 	overflow-x: hidden;
+	text-align: initial;
 	white-space: nowrap;
 }
 
-.solutions .left span:after{
+.solutions .left::after{
 	content: ". . . . . . . . . ";
 	float: right;
 	padding-left: .25em;
