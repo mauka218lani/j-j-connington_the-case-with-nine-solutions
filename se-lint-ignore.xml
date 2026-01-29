@@ -6,6 +6,12 @@
 			<reason>Single quotes correct.</reason>
 		</ignore>
 	</file>
+	<file path="chapter-11.xhtml">
+		<ignore>
+			<code>y-032</code>
+			<reason>Two consecutive individual letter graphemes.</reason>
+		</ignore>
+	</file>
 	<file path="chapter-12.xhtml">
 		<ignore>
 			<code>y-019</code>
