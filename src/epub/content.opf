@@ -29,42 +29,50 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Case with Nine Solutions</dc:title>
 		<meta property="file-as" refines="#title">Case with Nine Solutions, The</meta>
+		<meta property="dcterms:alternative" refines="#title">The Case with 9 Solutions</meta>
 		<dc:subject id="subject-1">Detective and mystery stories</dc:subject>
 		<dc:subject id="subject-2">Murder -- Investigation -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Police -- England -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">sh85037260</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2008107761</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh2008108887</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Mystery</meta>
+		<meta id="collection-1" property="belongs-to-collection">Sir Clinton Driffield</meta>
+		<meta property="collection-type" refines="#collection-1">series</meta>
+		<meta property="group-position" refines="#collection-1">1</meta>
+		<dc:description id="description">Two bodies in two locations central to the case have nine possible permutations for cause of death between accident, suicide, and murder.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;On a foggy night a doctor temporarily filling in for another accidentally goes to the wrong house and finds a dying man who had been shot. He decides to call &lt;a href="https://standardebooks.org/collections/sir-clinton-driffield"&gt;Chief Constable Sir Clinton Driffield’s&lt;/a&gt;, because of his recent visit to examine Driffield's ill butler. Going next door to the correct house, he telephones Driffield and interrogates the maid regarding prior events that evening. Further murders are discovered as the case unfolds. The police investigation is augmented with advertisements in the local paper that are in secret code, a blackmailing witness, and possibly fabricated evidence received from an anonymous source. The woman central to the case was drugged and three main characters are chemists.&lt;/p&gt;
+			&lt;p&gt;The Case with Nine Solutions is the fourth in a series of detective novels by &lt;a href="https://standardebooks.org/ebooks/j-j-connington"&gt;J. J. Connington&lt;/a&gt; that feature Sir Clinton Driffield. It was first published in Britain in 1928. The technical science in this case, clearly explained, has its foundation in the author's background as a research chemist.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
+		<!--Transcription-->
 		<dc:source>https://www.gutenberg.org/ebooks/72816</dc:source>
-		<dc:source>IA_URL</dc:source>
-		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
+		<!--HathiTrust scans-->
+		<dc:source>https://catalog.hathitrust.org/Record/103099151</dc:source>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Case_with_Nine_Solutions</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/j-j-connington_the-case-with-nine-solutions</meta>
 		<dc:creator id="author">J. J. Connington</dc:creator>
 		<meta property="file-as" refines="#author">Connington, J. J.</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/J._J._Connington</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Alfred_Walter_Stewart</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/no90020738</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
+		<dc:contributor id="artist">Alvar Cawén</dc:contributor>
+		<meta property="file-as" refines="#artist">Cawén, Alvar</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Alvar_Cawén</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n89608848</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Brian Raiter</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Raiter, Brian</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Anonymous</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Anonymous</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
