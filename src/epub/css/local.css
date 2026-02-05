@@ -67,20 +67,22 @@ th:first-child{
 	padding-right: .25em;
 }
 
-.advertisement{
-	font-variant: all-small-caps;
+#chapter-10 table td:first-child{
+	padding-right: 1em;
 }
 
-.calculations{
-	margin: 1em auto;
-}
-
-.calculations td.n{
+#chapter-10 table td:nth-child(3){
+	padding-left: 1em;
 	text-align: right;
 }
 
-.calculations td.w{
-	padding-right: 1em;
+#chapter-10 table tr:nth-child(2) td:nth-last-child(-n+3){
+	border-bottom: 1px solid;
+	border-spacing: 0;
+}
+
+.advertisement{
+	font-variant: all-small-caps;
 }
 
 .excerpt{
