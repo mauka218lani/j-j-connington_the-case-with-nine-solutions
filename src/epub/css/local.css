@@ -49,6 +49,24 @@ ol:nth-of-type(2) li::before{
 	font-style: italic;
 }
 
+table{
+	border-collapse: collapse;
+	margin: 1em auto;
+}
+
+th:first-child{
+	text-align: left;
+}
+
+#chapter-6 table td:first-child::after,
+#chapter-11 table td:first-child::after,
+#chapter-12 table td:first-child::after{
+	content: " . . . . . . . . . . . ";
+	float: right;
+	padding-left: .25em;
+	padding-right: .25em;
+}
+
 .advertisement{
 	font-variant: all-small-caps;
 }
@@ -69,33 +87,6 @@ ol:nth-of-type(2) li::before{
 	font-style: italic;
 	margin: 1em 0;
 	text-indent: 0;
-}
-
-.solutions{
-	margin: 1em auto;
-}
-
-.solutions th{
-	font-variant: small-caps;
-	font-weight: normal;
-}
-
-.solutions .leftth{
-	overflow-x: hidden;
-	text-align: initial;
-	white-space: nowrap;
-}
-
-.solutions .left::after{
-	content: ". . . . . . . . . ";
-	float: right;
-	padding-left: .25em;
-}
-
-.solutions .right{
-	overflow-x: hidden;
-	padding-left: .25em;
-	white-space: nowrap;
 }
 
 .telegram{
