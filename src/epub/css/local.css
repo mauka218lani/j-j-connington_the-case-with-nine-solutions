@@ -55,7 +55,7 @@ table{
 }
 
 th:first-child{
-	text-align: left;
+	text-align: initial;
 }
 
 #chapter-6 table td:first-child::after,
@@ -106,9 +106,5 @@ th:first-child{
 #chapter-19 header{
 	font-style: italic;
 	margin: 1em 0 1em;
-	text-align: left;
-}
-
-#chapter-19 header + p{
-	margin-top: 0;
+	text-align: initial;
 }

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<se-lint-ignore>
-	<file path="chapter-12.xhtml">
-		<ignore>
-			<code>y-019</code>
-			<reason>Isolated trailing double quote correct.</reason>
-		</ignore>
-	</file>
-</se-lint-ignore>
