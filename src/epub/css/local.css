@@ -97,7 +97,7 @@ th:first-child{
 	font-variant: all-small-caps;
 }
 
-#chapter-19 p:nth-of-type(43){
+#excerpt-9 p:nth-of-type(4){
 	margin: 0;
 	padding-top: 1em;
 	text-indent: 1em;
@@ -107,4 +107,9 @@ th:first-child{
 	font-style: italic;
 	margin: 1em 0 1em;
 	text-align: initial;
+}
+
+#chapter-19 header + p{
+	margin-top: 0;
+	text-indent: 1em;
 }
