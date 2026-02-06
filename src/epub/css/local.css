@@ -110,5 +110,5 @@ th:first-child{
 }
 
 #chapter-19 header + p{
-	margin: 1em 0 1em;
+	margin-top: 0;
 }
