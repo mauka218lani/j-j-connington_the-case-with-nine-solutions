@@ -93,18 +93,22 @@ th:first-child{
 	text-transform: uppercase;
 }
 
-.excerpt{
-	font-style: italic;
-	margin: 1em 0;
-	text-indent: 0;
-}
-
 .telegram{
 	font-variant: all-small-caps;
 }
 
-#chapter-19 p:nth-of-type(52){
+#chapter-19 p:nth-of-type(43){
 	margin: 0;
 	padding-top: 1em;
 	text-indent: 1em;
+}
+
+#chapter-19 header{
+	font-style: italic;
+	margin: 1em 0 1em;
+	text-align: left;
+}
+
+#chapter-19 header + p{
+	margin: 1em 0 1em;
 }
