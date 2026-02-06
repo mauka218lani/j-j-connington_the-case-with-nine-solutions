@@ -81,8 +81,16 @@ th:first-child{
 	border-spacing: 0;
 }
 
-.advertisement{
-	font-variant: all-small-caps;
+#chapter-11 blockquote:nth-of-type(2) p:last-child,
+#chapter-11 blockquote:nth-of-type(3) p:last-child,
+#chapter-11 blockquote:nth-of-type(4) p:last-child{
+	padding-left: 5em;
+	text-transform: uppercase;
+}
+
+#chapter-11 blockquote:nth-of-type(6),
+#chapter-11 q{
+	text-transform: uppercase;
 }
 
 .excerpt{
