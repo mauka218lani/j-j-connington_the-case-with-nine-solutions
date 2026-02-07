@@ -43,7 +43,7 @@
 		<meta property="se:subject">Mystery</meta>
 		<meta id="collection-1" property="belongs-to-collection">Sir Clinton Driffield</meta>
 		<meta property="collection-type" refines="#collection-1">series</meta>
-		<meta property="group-position" refines="#collection-1">1</meta>
+		<meta property="group-position" refines="#collection-1">4</meta>
 		<dc:description id="description">Two bodies in two locations central to the case have nine possible permutations for cause of death between accident, suicide, and murder.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;On a foggy night a doctor temporarily filling in for another accidentally goes to the wrong house and finds a dying man who had been shot. He decides to call &lt;a href="https://standardebooks.org/collections/sir-clinton-driffield"&gt;Chief Constable Sir Clinton Driffield’s&lt;/a&gt;, because of his recent visit to examine Driffield’s ill butler. Going next door to the correct house, he telephones Driffield and interrogates the maid regarding prior events that evening. Further murders are discovered as the case unfolds. The police investigation is augmented with advertisements in the local paper that are in secret code, a blackmailing witness, and possibly fabricated evidence received from an anonymous source. The woman central to the case was drugged and three main characters are chemists.&lt;/p&gt;
