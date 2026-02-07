@@ -58,6 +58,10 @@ th:first-child{
 	text-align: initial;
 }
 
+#chapter-2 q{
+	font-style: italic;
+}
+
 #chapter-6 table td:first-child::after,
 #chapter-11 table td:first-child::after,
 #chapter-12 table td:first-child::after{
